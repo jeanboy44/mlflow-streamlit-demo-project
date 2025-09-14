@@ -1,0 +1,17 @@
+{
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit"
+    },
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit"
+        }
+    },
+    "terminal.integrated.env.osx": {"PYTHONPATH": "${workspaceFolder}"},
+    "terminal.integrated.env.windows": {"PYTHONPATH": "${workspaceFolder}"},
+    "ruff.nativeServer": "on"
+}
